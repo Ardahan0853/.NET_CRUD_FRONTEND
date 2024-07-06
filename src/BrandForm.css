@@ -1,0 +1,89 @@
+/* BrandForm.css */
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.form-container form div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.form-container label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"]{
+    width: 70%;
+    padding: 5px 10px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-container button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-container button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.person-list {
+    margin-top: 20px;
+}
+
+.person-list h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.person-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.person-list li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.delete, .edit{
+    margin-left: 5px;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
